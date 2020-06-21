@@ -1,0 +1,30 @@
+{
+    "name": "omegasys/required-modules",
+    "description": "Setups and installs required 3rd party scripts",
+    "type": "project",
+    "license": "FREE",
+    "authors": [
+        {
+            "name": "Slavko Vuletic",
+            "email": "slavko.vuletic92@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+              "name": "slavkovul/notifications-js",
+              "version": "1.0.1",
+              "type": "html",
+              "source": {
+                "url": "https://github.com/MyUserNameIsMyUserName/Notifications_basic_view.git",
+                "type": "git",
+                "reference": "master"
+              }
+            }
+        }
+    ],
+    "require": {
+      "slavkovul/notifications-js": "^1"
+    }
+}
